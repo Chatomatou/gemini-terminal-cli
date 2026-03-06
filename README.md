@@ -25,5 +25,12 @@ Une interface en ligne de commande (CLI) élégante, rapide et multilingue pour 
 
 ### 1. Cloner le projet
 ```bash
-git clone [https://github.com/votre-nom/gemini-terminal-cli.git](https://github.com/votre-nom/gemini-terminal-cli.git)
+git clone [https://github.com/Chatomatou/gemini-terminal-cli.git](https://github.com/Chatomatou/gemini-terminal-cli.git)
 cd gemini-terminal-cli
+python -m venv .venv
+# Sur Windows (PowerShell) :
+.\.venv\Scripts\Activate.ps1
+# Sur Linux/macOS :
+source .venv/bin/activate
+pip install -r requirements.txt
+```
